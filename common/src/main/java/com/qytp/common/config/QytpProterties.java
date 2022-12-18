@@ -18,6 +18,8 @@ import java.util.List;
 @ConfigurationProperties(prefix = QytpConstant.MAIN_PROPERTITY_PREFIX)
 public class QytpProterties {
 
+    // test Git
+
     private Boolean enable;
     private Nacos nacos;
     private List<ThreadPoolProterties> executors;
